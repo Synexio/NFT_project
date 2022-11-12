@@ -1,0 +1,523 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\alexh\\OneDrive\\Bureau\\ESGI\\4eme annee\\Etude_NFT\\Solidity\\contracts\\Address.sol": {
+      "lastModificationDate": 1666010319550,
+      "contentHash": "9535d34ff7265770febee12bd6748118",
+      "sourceName": "contracts/Address.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Address"
+      ]
+    },
+    "C:\\Users\\alexh\\OneDrive\\Bureau\\ESGI\\4eme annee\\Etude_NFT\\Solidity\\contracts\\ERC721.sol": {
+      "lastModificationDate": 1666010878559,
+      "contentHash": "e2d0a90a04c6f6130a717cea39401eff",
+      "sourceName": "contracts/ERC721.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC721.sol",
+        "./IERC721Receiver.sol",
+        "./IERC721Metadata.sol",
+        "./Address.sol",
+        "./Context.sol",
+        "./Strings.sol",
+        "./ERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC721"
+      ]
+    },
+    "C:\\Users\\alexh\\OneDrive\\Bureau\\ESGI\\4eme annee\\Etude_NFT\\Solidity\\contracts\\IERC721.sol": {
+      "lastModificationDate": 1666010878604,
+      "contentHash": "5029c262032f30634d706b99142bcd79",
+      "sourceName": "contracts/IERC721.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC721"
+      ]
+    },
+    "C:\\Users\\alexh\\OneDrive\\Bureau\\ESGI\\4eme annee\\Etude_NFT\\Solidity\\contracts\\IERC721Receiver.sol": {
+      "lastModificationDate": 1666010319564,
+      "contentHash": "6e66e0d8af63993ca2e3bdd6105f3bf5",
+      "sourceName": "contracts/IERC721Receiver.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC721Receiver"
+      ]
+    },
+    "C:\\Users\\alexh\\OneDrive\\Bureau\\ESGI\\4eme annee\\Etude_NFT\\Solidity\\contracts\\IERC721Metadata.sol": {
+      "lastModificationDate": 1666010878580,
+      "contentHash": "1b2ea82493a813bea78a5d2063ef0b26",
+      "sourceName": "contracts/IERC721Metadata.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC721.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC721Metadata"
+      ]
+    },
+    "C:\\Users\\alexh\\OneDrive\\Bureau\\ESGI\\4eme annee\\Etude_NFT\\Solidity\\contracts\\Context.sol": {
+      "lastModificationDate": 1666010319552,
+      "contentHash": "7afe318d316ca6d6d94add38564af31c",
+      "sourceName": "contracts/Context.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    },
+    "C:\\Users\\alexh\\OneDrive\\Bureau\\ESGI\\4eme annee\\Etude_NFT\\Solidity\\contracts\\Strings.sol": {
+      "lastModificationDate": 1666010319567,
+      "contentHash": "0a7bdaca8ce69feac6afd90b5900c1b9",
+      "sourceName": "contracts/Strings.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Strings"
+      ]
+    },
+    "C:\\Users\\alexh\\OneDrive\\Bureau\\ESGI\\4eme annee\\Etude_NFT\\Solidity\\contracts\\ERC165.sol": {
+      "lastModificationDate": 1666010878550,
+      "contentHash": "ef01ebfff1ffb18b33d53cf51ba90db7",
+      "sourceName": "contracts/ERC165.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC165"
+      ]
+    },
+    "C:\\Users\\alexh\\OneDrive\\Bureau\\ESGI\\4eme annee\\Etude_NFT\\Solidity\\contracts\\IERC165.sol": {
+      "lastModificationDate": 1666010319558,
+      "contentHash": "75b6aa40a09183fd7c3d9611cc29918a",
+      "sourceName": "contracts/IERC165.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC165"
+      ]
+    },
+    "C:\\Users\\alexh\\OneDrive\\Bureau\\ESGI\\4eme annee\\Etude_NFT\\Solidity\\contracts\\MyToken.sol": {
+      "lastModificationDate": 1666010980424,
+      "contentHash": "792f157603d24ed6e24b8411fab33083",
+      "sourceName": "contracts/MyToken.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ERC721.sol",
+        "./ERC721Burnable.sol",
+        "./Ownable.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "MyToken"
+      ]
+    },
+    "C:\\Users\\alexh\\OneDrive\\Bureau\\ESGI\\4eme annee\\Etude_NFT\\Solidity\\contracts\\ERC721Burnable.sol": {
+      "lastModificationDate": 1666010878566,
+      "contentHash": "2cbb41ddf5ca8693e5e6630b85478eff",
+      "sourceName": "contracts/ERC721Burnable.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ERC721.sol",
+        "./Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC721Burnable"
+      ]
+    },
+    "C:\\Users\\alexh\\OneDrive\\Bureau\\ESGI\\4eme annee\\Etude_NFT\\Solidity\\contracts\\Ownable.sol": {
+      "lastModificationDate": 1666010878545,
+      "contentHash": "fd1b87bd40628a4a73f5617d29cfbb9a",
+      "sourceName": "contracts/Ownable.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "C:\\Users\\alexh\\OneDrive\\Bureau\\ESGI\\4eme annee\\Etude_NFT\\Solidity\\contracts\\ERC721Enumerable.sol": {
+      "lastModificationDate": 1666010878573,
+      "contentHash": "6b15615e4b6c6d0c85b0270ab409080a",
+      "sourceName": "contracts/ERC721Enumerable.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ERC721.sol",
+        "./IERC721Enumerable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC721Enumerable"
+      ]
+    },
+    "C:\\Users\\alexh\\OneDrive\\Bureau\\ESGI\\4eme annee\\Etude_NFT\\Solidity\\contracts\\IERC721Enumerable.sol": {
+      "lastModificationDate": 1666010878588,
+      "contentHash": "1e6011cc9a19e6c25292ea49f44903bf",
+      "sourceName": "contracts/IERC721Enumerable.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC721.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC721Enumerable"
+      ]
+    }
+  }
+}
